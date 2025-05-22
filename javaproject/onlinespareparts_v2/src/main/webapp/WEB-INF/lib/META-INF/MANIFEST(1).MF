@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Bnd-LastModified: 1652339954197
+Build-Jdk: 11.0.2
+Built-By: jenkins
+Bundle-Description: Jakarta Servlet 6.0
+Bundle-DocURL: https://www.eclipse.org
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.or
+ g/software/classpath/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta Servlet
+Bundle-SymbolicName: jakarta.servlet-api
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 6.0.0
+Export-Package: jakarta.servlet;uses:="jakarta.servlet.annotation,jakart
+ a.servlet.descriptor";version="6.0.0",jakarta.servlet.annotation;uses:=
+ "jakarta.servlet";version="6.0.0",jakarta.servlet.descriptor;version="6
+ .0.0",jakarta.servlet.http;uses:="jakarta.servlet";version="6.0.0",jaka
+ rta.servlet.resources;version="6.0.0"
+Extension-Name: jakarta.servlet
+Implementation-Vendor: Eclipse Foundation
+Implementation-Vendor-Id: org.eclipse
+Implementation-Version: 6.0.0
+Import-Package: jakarta.servlet,jakarta.servlet.annotation,jakarta.servl
+ et.descriptor
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 6.0
+Tool: Bnd-5.1.1.202006162103
+

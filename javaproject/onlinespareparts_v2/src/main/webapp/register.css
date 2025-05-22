@@ -1,0 +1,167 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body.bodyy {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Header Navigation */
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: transparent;
+    z-index: 10;
+}
+
+.header a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image .logo5 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Form styling */
+.login {
+    width: 50%;
+    text-align: center;
+}
+
+.form {
+   padding:50px;
+   margin-top:100px;
+   margin-bottom:20px;
+    width: 50%;
+}
+input[type="email"],
+input[type="date"],
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+input[type="reset"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5e63;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="reset"],
+input[type="submit"]:hover {
+    background-color: #ff3b40;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: white;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.register,
+.help {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.register:hover,
+.help:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}

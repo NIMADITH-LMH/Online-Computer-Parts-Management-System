@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk-Spec: 11
+Bnd-LastModified: 1650567672923
+Bundle-Description: Jakarta Server Pages 3.1
+Bundle-DocURL: https://www.eclipse.org
+Bundle-License: https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.tx
+ t, https://www.gnu.org/software/classpath/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta Server Pages API
+Bundle-SymbolicName: jakarta.servlet.jsp-api
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 3.1.0
+Export-Package: jakarta.servlet.jsp;uses:="jakarta.el,jakarta.servlet,ja
+ karta.servlet.http,jakarta.servlet.jsp.el,jakarta.servlet.jsp.tagext";v
+ ersion="3.1.0",jakarta.servlet.jsp.el;uses:="jakarta.el";version="3.1.0
+ ",jakarta.servlet.jsp.tagext;uses:="jakarta.servlet.jsp";version="3.1.0
+ "
+Extension-Name: jakarta.servlet.jsp
+Implementation-Vendor: Eclipse Foundation
+Implementation-Version: 3.1.0
+Import-Package: jakarta.el;version="[5.0,6)",jakarta.servlet;version="[6
+ .0,7)",jakarta.servlet.http;version="[6.0,7)",jakarta.servlet.jsp,jakar
+ ta.servlet.jsp.el,jakarta.servlet.jsp.tagext
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+Tool: Bnd-5.1.1.202006162103
+
